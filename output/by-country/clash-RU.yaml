@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   type: vless
-  server: 103.251.167.112
+  server: 31.59.46.140
   port: 8443
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
@@ -15,23 +15,23 @@ proxies:
   servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /library/lang
+    path: '%2Ftravel%2Fintro%3Fed%3D2560'
     headers:
       Host: cdn8848.776676.xyz
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   type: vless
-  server: 72.56.250.71
-  port: 443
-  uuid: af2a0c18-b08c-471f-baa3-259ac2ce3a85
+  server: 5.101.115.117
+  port: 8443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tr3.wba-pn.ru
+  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: 72.56.250.71
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
